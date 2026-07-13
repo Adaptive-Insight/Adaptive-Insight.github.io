@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laika Resources</title>
+    <link>https://adaptive-insight.github.io/resources/</link>
+    <description>Product notes and explainers for Laika, a private AI finder for Mac.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jul 2026 19:00:00 -0700</lastBuildDate>
+    <atom:link href="https://adaptive-insight.github.io/resources/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is Laika?</title>
+      <link>https://adaptive-insight.github.io/resources/what-is-laika/</link>
+      <guid isPermaLink="true">https://adaptive-insight.github.io/resources/what-is-laika/</guid>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 -0700</pubDate>
+      <description>Why Laika finds files before answering, how selected scope controls deeper reading, and what local-first means in practice.</description>
+    </item>
+  </channel>
+</rss>

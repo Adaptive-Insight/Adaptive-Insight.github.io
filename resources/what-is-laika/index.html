@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0c0f0e">
+    <meta
+      name="description"
+      content="Laika is a private AI finder for Mac that finds relevant documents and photos, then answers from only the sources you choose."
+    >
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="What Is Laika?">
+    <meta
+      property="og:description"
+      content="How Laika combines local collection search, explicit scope, and source-backed answers on your Mac."
+    >
+    <meta property="og:url" content="https://adaptive-insight.github.io/resources/what-is-laika/">
+    <meta property="og:image" content="https://adaptive-insight.github.io/assets/selected-answer.jpg">
+    <meta property="og:image:width" content="2400">
+    <meta property="og:image:height" content="1350">
+    <meta property="og:image:alt" content="Laika answering from one selected document with a visible citation">
+    <meta property="article:published_time" content="2026-07-12T00:00:00-07:00">
+    <meta property="article:modified_time" content="2026-07-12T00:00:00-07:00">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://adaptive-insight.github.io/resources/what-is-laika/">
+    <link rel="alternate" type="application/rss+xml" title="Laika Resources" href="/resources/feed.xml">
+    <link rel="icon" href="/assets/laika-icon.png" type="image/png">
+    <link rel="stylesheet" href="/styles.css">
+    <title>What Is Laika? Private AI Search for Mac</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "What Is Laika?",
+        "description": "How Laika combines local collection search, explicit scope, and source-backed answers on your Mac.",
+        "image": [
+          "https://adaptive-insight.github.io/assets/selected-answer.jpg"
+        ],
+        "datePublished": "2026-07-12T00:00:00-07:00",
+        "dateModified": "2026-07-12T00:00:00-07:00",
+        "author": {
+          "@type": "Organization",
+          "name": "Adaptive Insight",
+          "url": "https://adaptive-insight.github.io/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Adaptive Insight",
+          "url": "https://adaptive-insight.github.io/"
+        },
+        "mainEntityOfPage": "https://adaptive-insight.github.io/resources/what-is-laika/"
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#article">Skip to article</a>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="/" aria-label="Laika home">
+          <img src="/assets/laika-icon.png" width="36" height="36" alt="">
+          <span>Laika</span>
+        </a>
+        <div class="nav-links">
+          <a class="nav-optional" href="/#product">Product</a>
+          <a class="nav-optional" href="/#how-it-works">How it works</a>
+          <a href="/resources/" aria-current="page">Resources</a>
+          <a class="nav-optional" href="/#privacy">Privacy</a>
+        </div>
+        <a
+          class="button button-small"
+          href="https://github.com/Adaptive-Insight/LaikaApp/releases/download/v0.1.0-alpha.3/Laika.dmg"
+        >Download Alpha 3</a>
+      </nav>
+    </header>
+
+    <main class="article-page" id="article">
+      <article>
+        <header class="article-header">
+          <div class="article-header-inner">
+            <p class="eyebrow">Product notes</p>
+            <h1>What is Laika?</h1>
+            <p class="article-standfirst">
+              Laika is a private AI finder for your Mac. It finds relevant
+              documents and photos first, then answers only from the sources
+              you choose.
+            </p>
+            <div class="article-meta">
+              <span>Adaptive Insight</span>
+              <time datetime="2026-07-12">July 12, 2026</time>
+              <span>3 min read</span>
+            </div>
+          </div>
+        </header>
+
+        <div class="article-layout article-layout-compact">
+          <div class="article-body">
+            <p>
+              Traditional file search expects you to remember a filename. A
+              broad AI answer box has the opposite problem: it may read far more
+              than the question requires. Laika separates those jobs.
+            </p>
+
+            <div class="architecture-flow" role="group" aria-label="Laika workflow">
+              <div><span>01</span><strong>Choose a collection</strong></div>
+              <div><span>02</span><strong>Build a local catalog</strong></div>
+              <div><span>03</span><strong>Find relevant assets</strong></div>
+              <div><span>04</span><strong>Select the evidence</strong></div>
+              <div><span>05</span><strong>Answer with citations</strong></div>
+            </div>
+
+            <h2 id="why">Why find comes first</h2>
+
+            <p>
+              Laika turns the folders and photos you choose into a local catalog.
+              It can search names, metadata, extracted text, OCR, and visual
+              labels without scanning every source for every query. Results
+              arrive as files you can inspect, not an opaque workspace-wide
+              answer.
+            </p>
+
+            <p>
+              Only after you choose evidence does Laika read more deeply. That
+              keeps routine discovery responsive and makes the boundary of an
+              answer visible before model work begins.
+            </p>
+
+            <h2 id="workflow">How Laika works</h2>
+
+            <h3>1. Build a durable local catalog</h3>
+            <p>
+              Documents contribute metadata, extracted text, and page anchors.
+              Photos contribute metadata, thumbnails, OCR, and visual labels.
+              Searchable content is stored in SQLite and survives app or Mac
+              restarts.
+            </p>
+
+            <h3>2. Find and preview</h3>
+            <p>
+              Collection search is index-first. Laika returns ranked documents
+              and photos with previews and match context. A small on-device
+              intent parse can refine a submitted search, but it does not need
+              to read candidate files before showing results.
+            </p>
+
+            <h3>3. Choose the answer scope</h3>
+            <p>
+              Laika keeps three states distinct: <strong>focus</strong> controls
+              the preview, <strong>selection</strong> fills the visible tray, and
+              <strong>scope</strong> defines what an Ask action may use. Clicking
+              a result never silently changes the answer boundary.
+            </p>
+
+            <h3>4. Answer from selected evidence</h3>
+            <p>
+              Direct facts use source-backed evidence when available. Short
+              synthesis stays tied to approved quotes, and deeper reading stays
+              inside the selected files. Answers include citations. If the
+              evidence is insufficient, Laika says so instead of silently
+              widening the search.
+            </p>
+
+            <h2 id="privacy-model">Private by design</h2>
+
+            <p>
+              The catalog, previews, evidence, and model execution stay on your
+              Mac after the model is installed. The alpha has no account,
+              telemetry, crash reporting, or automatic update checks.
+            </p>
+
+            <p>
+              The first model-backed action downloads and verifies the promoted
+              model. iCloud originals are fetched only when you explicitly open
+              or export them. With Redact on export enabled, Laika creates a
+              protected copy without changing the original.
+            </p>
+
+            <h2 id="limits">Alpha boundaries</h2>
+
+            <ul>
+              <li>The first model warm can take roughly 10 to 30 seconds.</li>
+              <li>Large collections need time for their first enrichment pass.</li>
+              <li>OCR is currently English-centric.</li>
+              <li>DOCX and XLSX are not yet indexed.</li>
+              <li>Live answer streaming is not enabled in this build.</li>
+            </ul>
+
+            <aside class="article-callout">
+              <p class="eyebrow">Try the private alpha</p>
+              <h2>Find first. Answer second.</h2>
+              <p>
+                Laika 0.1.0 Alpha 3 supports Apple silicon Macs running macOS 14
+                or later. Sixteen gigabytes of memory is recommended.
+              </p>
+              <a
+                class="button"
+                href="https://github.com/Adaptive-Insight/LaikaApp/releases/download/v0.1.0-alpha.3/Laika.dmg"
+              >Download Laika.dmg</a>
+            </aside>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="brand" href="/">
+            <img src="/assets/laika-icon.png" width="36" height="36" alt="">
+            <span>Laika</span>
+          </a>
+          <p>Private AI search for documents and photos on your Mac.</p>
+        </div>
+        <div class="footer-column">
+          <strong>Product</strong>
+          <a href="/#how-it-works">How it works</a>
+          <a href="/#walkthrough">Walkthrough</a>
+          <a href="/#privacy">Privacy</a>
+        </div>
+        <div class="footer-column">
+          <strong>Resources</strong>
+          <a href="/resources/">Blog</a>
+          <a href="/resources/feed.xml">RSS</a>
+          <a href="https://github.com/Adaptive-Insight/LaikaApp/releases">Releases</a>
+        </div>
+        <p class="copyright">&copy; 2026 Adaptive Insight</p>
+      </div>
+    </footer>
+  </body>
+</html>

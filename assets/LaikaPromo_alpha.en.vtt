@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.000
+Meet Laika, a private AI Finder for your Mac. It builds a local index, runs the model locally, and keeps documents and photos on your machine.
+
+00:00:09.000 --> 00:00:19.000
+Start by dragging in a collection. Laika indexes that folder locally, then searches the catalog without uploading your files.
+
+00:00:19.000 --> 00:00:30.000
+Then use Find. Laika searches the local catalog and full text index immediately, so common document queries return useful files in about a second.
+
+00:00:30.000 --> 00:00:41.500
+Photos are searchable too. During ingestion, Laika stores visual labels and thumbnails, so a phrase like mountain nature finds the right image without a slow answer model pass.
+
+00:00:41.500 --> 00:00:53.000
+When you need a real answer, select the files first. The selected scope is visible, explicit, and easy to clear, so Laika does not silently narrow or broaden the evidence.
+
+00:00:53.000 --> 00:01:05.000
+Now ask inside that selected source. This answer is grounded to the handbook citation, and the measured path skipped answer compose, compact synthesis, and evidence support scoring.
+
+00:01:05.000 --> 00:01:15.500
+You can also drag a document out of Laika. With redaction enabled, drag out materializes the protected copy for sharing.
+
+00:01:15.500 --> 00:01:27.000
+For sensitive documents, Laika separates local reading from export. Redact on export creates a copy with personal details covered before the file leaves your Mac.
+
+00:01:27.000 --> 00:01:40.800
+Laika alpha is focused on practical private search: fast local discovery, deliberate scope, grounded answers, drag and drop, and redacted export.
